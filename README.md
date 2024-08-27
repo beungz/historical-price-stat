@@ -1,6 +1,6 @@
 # AIPI 510: Premodule Assignment: historical-price-stat
 
-This is a Python script that can read CSV file and calculate key stats (average/minimum/maximum) from a time series of historical closing prices.
+This is a Python script that can calculate key stats (average/minimum/maximum) of a time series of historical closing prices, from CSV price source.
 
 ## Installation
 
@@ -8,11 +8,11 @@ This is a Python script that can read CSV file and calculate key stats (average/
 ```
 pip install setuptools
 ```
-1. In `historial-price-stat directory`, run `setup.py`
+2. In `historial-price-stat` directory, run `setup.py`
 ```
 python setup.py develop
 ```
-1. To run the code, type the followings in the terminal
+3. To run the code, type the followings in the terminal
 ```
 pricestat <csvfilename>
 ```
@@ -54,7 +54,7 @@ Source of the example CSVs:
 ```
 pip install pytest
 ```
-1. Run `pytest` to test the function `load_csv_calc_keystats`
+2. Run `pytest` to test the function `load_csv_calc_keystats`
 ```
 pytest
 ```
