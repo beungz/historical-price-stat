@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: historical-price-stat
+Version: 0.0.1
+Summary: find average, min, max of historical share prices, with price source from csv file
+Home-page: https://github.com/beungz/historical-price-stat
+Author: Matana P
+Author-email: matana.po@duke.edu
+Requires-Dist: click==7.1.2
+Requires-Dist: pandas==2.0.3

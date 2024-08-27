@@ -1,0 +1,8 @@
+setup.py
+historical_price_stat.egg-info/PKG-INFO
+historical_price_stat.egg-info/SOURCES.txt
+historical_price_stat.egg-info/dependency_links.txt
+historical_price_stat.egg-info/entry_points.txt
+historical_price_stat.egg-info/requires.txt
+historical_price_stat.egg-info/top_level.txt
+tests/test_main.py
